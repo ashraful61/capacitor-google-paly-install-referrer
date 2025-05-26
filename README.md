@@ -56,7 +56,7 @@ import { CapacitorGooglePlayInstallReferrer } from 'capacitor-google-play-instal
 
 const result: any = await CapacitorGooglePlayInstallReferrer.getReferrer();
 
-example link:
+Example link:
 https://play.google.com/store/apps/details?id={packageName}&referrer={dynamicCode}
 https://play.google.com/store/apps/details?id=com.example.app&referrer=Test234
 ```
