@@ -47,3 +47,14 @@ getReferrer() => Promise<{ referrer: string; clickTime: number; installTime: num
 --------------------
 
 </docgen-api>
+
+
+Example:
+
+import { CapacitorGooglePlayInstallReferrer } from 'capacitor-google-play-install-referrer';
+
+const result: any = await CapacitorGooglePlayInstallReferrer.getReferrer();
+
+example link:
+https://play.google.com/store/apps/details?id={packageNamew}&referrer={dynamicCode}
+https://play.google.com/store/apps/details?id=com.example.app&referrer=Test234
